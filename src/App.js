@@ -1,10 +1,11 @@
 import React from 'react';
+import Landing from './container/Landing/Landing';
 
 
 export default function App(){
   return (
     <>
-        <h1>Welcome to Neural Ai</h1>
+      <Landing />
     </>
   )
 }
