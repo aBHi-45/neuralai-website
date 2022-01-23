@@ -1,0 +1,39 @@
+.headingDiv {
+  height: 22rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 4rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-bottom: 2rem;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.headingInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media (max-width: 900px) {
+  .headingDiv {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    height: 18rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .headingDiv {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    height: 13rem;
+  }
+}
