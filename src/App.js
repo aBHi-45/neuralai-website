@@ -1,11 +1,32 @@
 import React from 'react';
+import Footer from './common/Footer/Footer';
 import Landing from './container/Landing/Landing';
+import { createTheme, ThemeProvider, responsiveFontSizes } from '@material-ui/core';
 
+export default function App() {
+  const theme = createTheme({
+    palette: {
+      primary: {
+        main: '#999999'
+      },
+      secondary: {
+        main: '#ffffff'
+      },
+      text: {
+        primary: '#00b7eb'
+      }
+    },
+    typography: {
+      fontFamily: 'Helvetica',
+    }
+  })
 
-export default function App(){
   return (
     <>
-      <Landing />
+      <ThemeProvider theme={theme}>
+        <Landing />
+        <Footer/>
+      </ThemeProvider>
     </>
   )
 }
