@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from './common/Footer/Footer';
 import Landing from './container/Landing/Landing';
-import { createTheme, ThemeProvider, responsiveFontSizes } from '@material-ui/core';
+import { createTheme, ThemeProvider} from '@material-ui/core';
 
 export default function App() {
   const theme = createTheme({
