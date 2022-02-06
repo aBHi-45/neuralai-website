@@ -64,7 +64,7 @@ const Footer = () => {
             whileInView='inView'
         >
             <StylesProvider injectFirst>
-            <Container style={{ background: '#141414', paddingBottom: '1rem', width: '100%' }}>
+            <Container style={{ background: '#000000', paddingBottom: '1rem', width: '100%' }}>
                 <hr />
                 <Grid container style={{ marginTop: '2.2rem' }}>
                     {/* NeuralAI Intro */}

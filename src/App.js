@@ -2,9 +2,7 @@ import React from "react";
 import BlogPage from "./container/Blog_section/BlogPage";
 import Landing from "./container/Landing/Landing";
 import Card1 from "./container/Research_Papers/card";
-import React from 'react';
 import Footer from './common/Footer/Footer';
-import Landing from './container/Landing/Landing';
 import { createTheme, ThemeProvider} from '@material-ui/core';
 
 export default function App() {
