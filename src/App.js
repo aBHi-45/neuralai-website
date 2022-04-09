@@ -4,6 +4,7 @@ import Landing from "./container/Landing/Landing";
 import Card1 from "./container/Research_Papers/card";
 import Footer from './common/Footer/Footer';
 import { createTheme, ThemeProvider} from '@material-ui/core';
+import Catalogue from "./container/Catalogue/Catalogue";
 
 export default function App() {
   const theme = createTheme({
@@ -26,6 +27,7 @@ export default function App() {
   return (
     <>
       <Landing />
+      <Catalogue/>
       <BlogPage />
       <Card1 />
       <ThemeProvider theme={theme}>
