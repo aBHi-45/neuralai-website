@@ -1,0 +1,12 @@
+.section-img{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+@media (max-width: 400) {
+    .section-img{
+        width: 60%;
+        margin: auto;
+    }
+}

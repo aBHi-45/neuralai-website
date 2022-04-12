@@ -26,11 +26,11 @@ export default function App() {
 
   return (
     <>
-      <Landing />
-      <Catalogue/>
-      <BlogPage />
-      <Card1 />
       <ThemeProvider theme={theme}>
+        <Landing />
+        <Catalogue/>
+        <BlogPage />
+        <Card1 />
         <Footer/>
       </ThemeProvider>
     </>
